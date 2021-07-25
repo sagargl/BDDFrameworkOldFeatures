@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
+    <testcase classname="Login to the Test Application" name="Login to the App" time="0">
+        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user enters to the amazon app.........................................skipped
+When search the "Applemac" and price 100....................................skipped
+Then "Apple" should be displayed............................................skipped
+Then user enters "<products>" and "<pricetag>"..............................undefined
+]]></failure>
+    </testcase>
+</testsuite>

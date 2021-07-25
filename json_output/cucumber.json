@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login to the App",
+        "description": "",
+        "id": "login-to-the-test-application;login-to-the-app",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "user enters to the amazon app",
+            "match": {
+              "location": "Testclass.user_enters_to_the_amazon_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "search the \"Applemac\" and price 100",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Applemac",
+                  "offset": 12
+                },
+                {
+                  "val": "100",
+                  "offset": 32
+                }
+              ],
+              "location": "Testclass.search_the_and_price(String,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "\"Apple\" should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Apple",
+                  "offset": 1
+                }
+              ],
+              "location": "Testclass.should_be_displayed(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user enters \"\u003cproducts\u003e\" and \"\u003cpricetag\u003e\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to the Test Application",
+    "description": "",
+    "id": "login-to-the-test-application",
+    "keyword": "Feature",
+    "uri": "/Users/swath/eclipse-workspace/BDDFramework/src/main/java/Feature/Test.feature"
+  }
+]
